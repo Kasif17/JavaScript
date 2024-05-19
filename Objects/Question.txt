@@ -1,0 +1,38 @@
+Q1.How many way to access the object value??
+Q2.how to aceess this value in object
+   const user = {
+    "name " : badal;
+   } 
+   ??
+Q3. How to access in Symbol value in Symbol type not String type
+Q4.{
+    "name":"kasif"
+}
+{
+    name:"badal"
+}
+{
+    "name"= "Badal"
+}
+
+Object 
+object have to the access of any value key value pair ;
+
+Type of Objects
+1. Object Literal
+2. Object Contructor
+
+Object Literal
+Syntax:
+const user =  {
+    name : "kasif",
+    Key     value
+    age : "21",
+}
+Note : Key don't need to define data type (is optional) he take always default value in string
+
+How to Freeze the object 
+
+so // Object.freeze(user)
+
+then don't change any value of user object 
