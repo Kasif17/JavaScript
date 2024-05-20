@@ -1,0 +1,14 @@
+// nested scope
+ nested scope child class acess to the parents class but parents class does't acess to the child class 
+ eg.  function one(){
+    const username = "kasif";
+
+    function two(){
+        const username2 = 'anas'
+        console.log(username);
+    }
+ //   console.log(username2);
+    two()
+}
+one();
+ 

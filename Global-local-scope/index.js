@@ -3,6 +3,6 @@ if(true){
 var b = 14;
 const c = 16;
 }
-console.log(a);
+//console.log(a);
 console.log(b);
-console.log(c);
+//console.log(c);
