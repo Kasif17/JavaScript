@@ -15,10 +15,10 @@ const user = {
 
 // access of object
 
-// console.log(user.name);
-// console.log(user["age"]);
-// console.log(user["first name"]);
-// console.log( typeof user[mysym]);
+//console.log(user.name);
+ console.log(user["age"]);
+ console.log(user["first name"]);
+ console.log( typeof user[mysym]);
 
 //Update the Value 
 

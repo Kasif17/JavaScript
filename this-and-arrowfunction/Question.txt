@@ -1,0 +1,4 @@
+if you run the this on brower then give the output is window because inside brower is global object is 
+window object ;
+
+and then if you run this in node.js then give the out is empty object {}

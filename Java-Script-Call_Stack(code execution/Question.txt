@@ -1,0 +1,10 @@
+                         JavaScript Execution Context
+                
+{}  Global Context /// And this is refer to This key word or variable
+Types of the Execution Context in js
+
+* Global Execution Context
+* Function Execution Context
+* Eval Execution Context;
+
+
