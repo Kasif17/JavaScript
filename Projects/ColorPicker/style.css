@@ -1,0 +1,31 @@
+.conatiner{
+    margin: 0px;
+    text-align: center;
+}
+.color-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.color{
+    height: 150px;
+    width: 150px;
+}
+h1{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+#grey{
+    background-color: gray;
+}
+#white{
+    background-color: white;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}

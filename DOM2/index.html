@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">MONDAY</div>
+        <div class="child">TUESDAY</div>
+        <div class="child">WEDNESDAY</div>
+        <div class="child">THURSDAY</div>  
+        <div class="child">FRIDAY</div>
+        <div class="child">SATARDAY</div>
+        <div class="child">SUNDAY</div>
+    </div>
+    <script>
+        const parent = document.querySelector('.parent')
+        // console.log(parent.children[0].innerText='DAYS');
+        // parent.children[0].style.color='red'
+        // parent.children[0].style.padding='10px'
+          
+        const child = document.querySelector('.child')
+        // console.log(child.nextSibling.nextSibling);
+        console.log(child.nextElementSibling.innerHTML);
+        // console.log("Nodes",child.childNodes);
+    </script>
+</body>
+</html>
