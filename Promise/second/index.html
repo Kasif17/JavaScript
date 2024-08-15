@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Mohd and JS Promises.
+    </h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+</body>
+   <script>
+    const date = function(str){
+    console.log('Kasif',str,new Date().toLocaleString());
+   }
+   
+   let intervalId;
+   
+   document.querySelector('#start').addEventListener('click',function(){
+    if (intervalId) clearInterval(intervalId);
+            intervalId = setInterval(date, 2000, "Khan");
+   })
+
+   document.querySelector('#stop').addEventListener('click',function(){
+    if (intervalId) {
+                clearInterval(intervalId);
+                intervalId = null; // Clear the interval ID
+            }
+   })
+  
+   </script>
+</html>
